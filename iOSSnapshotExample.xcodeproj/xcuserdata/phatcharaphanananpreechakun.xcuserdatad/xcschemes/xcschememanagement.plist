@@ -7,7 +7,25 @@
 		<key>iOSSnapshotExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3D8A1CD125E55E3F007F1312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D8A1CE725E55E40007F1312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D8A1CF225E55E40007F1312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -11,6 +11,12 @@ import FBSnapshotTestCase
 @testable import iOSSnapshotExample
 
 class ViewControllerTests: FBSnapshotTestCase {
+  
+  override func setUp() {
+    super.setUp()
+    
+    recordMode = false
+  }
 
   func testExample() {
     let viewController: UIViewController = UIStoryboard(name: "Main", bundle: nil)

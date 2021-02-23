@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		3D8A1CDD25E55E3F007F1312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8A1CDB25E55E3F007F1312 /* Main.storyboard */; };
 		3D8A1CDF25E55E40007F1312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8A1CDE25E55E40007F1312 /* Assets.xcassets */; };
 		3D8A1CE225E55E40007F1312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8A1CE025E55E40007F1312 /* LaunchScreen.storyboard */; };
-		3D8A1CED25E55E40007F1312 /* iOSSnapshotExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A1CEC25E55E40007F1312 /* iOSSnapshotExampleTests.swift */; };
+		3D8A1CED25E55E40007F1312 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A1CEC25E55E40007F1312 /* ViewControllerTests.swift */; };
 		3D8A1CF825E55E40007F1312 /* iOSSnapshotExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A1CF725E55E40007F1312 /* iOSSnapshotExampleUITests.swift */; };
 		41B4EFC4AAFD143D981DDAC0 /* Pods_iOSSnapshotExample_iOSSnapshotExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB11B5257440B6AEAF32AEE /* Pods_iOSSnapshotExample_iOSSnapshotExampleUITests.framework */; };
 		5D846C14013F8B3466EE048E /* Pods_iOSSnapshotExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9078E73CEB4D3E47E5231E /* Pods_iOSSnapshotExample.framework */; };
@@ -48,7 +48,7 @@
 		3D8A1CE125E55E40007F1312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D8A1CE325E55E40007F1312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8A1CE825E55E40007F1312 /* iOSSnapshotExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSnapshotExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D8A1CEC25E55E40007F1312 /* iOSSnapshotExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSnapshotExampleTests.swift; sourceTree = "<group>"; };
+		3D8A1CEC25E55E40007F1312 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		3D8A1CEE25E55E40007F1312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8A1CF325E55E40007F1312 /* iOSSnapshotExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSnapshotExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8A1CF725E55E40007F1312 /* iOSSnapshotExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSnapshotExampleUITests.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		3D8A1CEB25E55E40007F1312 /* iOSSnapshotExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D8A1CEC25E55E40007F1312 /* iOSSnapshotExampleTests.swift */,
+				3D8A1CEC25E55E40007F1312 /* ViewControllerTests.swift */,
 				3D8A1CEE25E55E40007F1312 /* Info.plist */,
 			);
 			path = iOSSnapshotExampleTests;
@@ -155,7 +155,6 @@
 				4E792656792C831A6D5C2682 /* Pods-iOSSnapshotExampleTests.debug.xcconfig */,
 				8F49C12330B80B3C6B5CC77E /* Pods-iOSSnapshotExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -400,7 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8A1CED25E55E40007F1312 /* iOSSnapshotExampleTests.swift in Sources */,
+				3D8A1CED25E55E40007F1312 /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
