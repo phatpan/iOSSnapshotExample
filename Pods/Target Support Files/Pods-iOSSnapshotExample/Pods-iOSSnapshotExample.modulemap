@@ -1,0 +1,6 @@
+framework module Pods_iOSSnapshotExample {
+  umbrella header "Pods-iOSSnapshotExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

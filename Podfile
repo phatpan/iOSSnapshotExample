@@ -9,7 +9,8 @@ target 'iOSSnapshotExample' do
 
   target 'iOSSnapshotExampleTests' do
     inherit! :search_paths
-    # Pods for testing
+    use_frameworks!
+    pod 'FBSnapshotTestCase'
   end
 
   target 'iOSSnapshotExampleUITests' do
